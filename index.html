@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <html>
+      <head>
+        <title>Bootstrap 101 Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      </head>
+      <body>
+
+        <ul class="post-list" itemscope itemtype="http://schema.org/Blog">
+        {% for post in site.posts %}
+          <li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+                  <span itemprop="name">{{ post.title }}</span>
+                  <span class="post-meta"><time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
+                </a>
+            </h2>
+
+         </li>
+        {% endfor %}
+        </ul>     <!DOCTYPE html>
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+      </body>
+    </html>
+
+
+</div>
