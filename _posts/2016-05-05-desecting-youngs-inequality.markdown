@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Depicking Young's Inequality!"
+title:  "Desecting Young's Inequality!"
 categories: Inequality
 excerpt: Young's Inequality is used for a wide range of proofs. We're doing a step-by-step how it can be proofed (with Visuals).
 ---
 
 <h2>Young's Inequality</h2>
 <h3>Motivation</h3>
-This semester i've applied for the course "Introduction to Topology". As always proofs built upon other proofs. I will depick some inequalities and their proofs, which are needed for topology. I begin with Young's Inequality which can be used to proof the Hoelder Inequality. The Minkowski Inequality depends on the latter and is used to show that the euclidian norm is a metric.
+This semester i've applied for the course "Introduction to Topology". As always proofs built upon other proofs. I will desect some inequalities and their proofs, which are needed for topology. I begin with Young's Inequality which can be used to proof the Hoelder Inequality. The Minkowski Inequality depends on the latter and is used to show that the euclidian norm is a metric.
 
 <h3 id="defyoung">Definition</h3>
 Let $f: [0,\infty[ \rightarrow [0,\infty[$ be strictly monotonically increasing and unlimited with $f(0)=0$. This implies that the function is bijective (injective + surjective) and the inverse function $f^{-1}$ is defined. If the following property holds true $a,b \gt 0 $ Young's Inequality is:

@@ -21,7 +21,7 @@ y' + 2xy = 0;
 \end{eqnarray}
 
 where the equation consists of independent variables ($x$),
-functions or dependent variables ($y$) and derivations ($y'$).
+functions or dependent variables ($y$) and derivates ($y'$).
 Equation (\ref{eq:differential}) is a <b>differential equation of order one</b>
 or a <b>first-order differential equation</b> because its highest
 derivate is of order one. Similiarly a <b>differential equation of ordner n</b>

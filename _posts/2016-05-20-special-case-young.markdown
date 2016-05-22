@@ -6,7 +6,7 @@ excerpt: We're gonna finish off a special case of the Young's Inequlity so that 
 ---
 
 <h3> Special Case </h3>
-<p>So we're actually gonna need a special case of the <a href="../05/depicking-youngs-inequality.html">Young's Inequality</a> we depict last time out to progress further. Without much further due here it is: </p>
+<p>So we're actually gonna need a special case of the <a href="../05/desecting-youngs-inequality.html">Young's Inequality</a> we depict last time out to progress further. Without much further due here it is: </p>
 \begin{eqnarray}\label{eq:young-special}
 ab \leq \frac{a^p}{p} + \frac{b^q}{q}.
 \end{eqnarray}
@@ -41,7 +41,7 @@ First trick is the $+1-1$ which is a common trick to consolidate equations. We p
 ab \leq \frac{a^{p}}{p} + \frac{b^{q}}{q}.
 \end{eqnarray}
 <h3>Remark</h3>
-<p>So let's take a step back and look what we actually did here. Let's look back at Young's Inequality. We used a specific family of functions: $x^{p-1}$ ,where $p>1$. They are as we required for the <a href="../05/depicking-youngs-inequality.html#defyoung">Young's Inequality</a> strictly monotonically increasing and unlimited with $f(0)=0$. The counterpart of $x^{p-1}$ is $x=y^{\frac{1}{p-1}}$ displayed on the right, which can be used to calculate the area above the curve of $f(x)$.</p>
+<p>So let's take a step back and look what we actually did here. Let's look back at Young's Inequality. We used a specific family of functions: $x^{p-1}$ ,where $p>1$. They are as we required for the <a href="../05/desecting-youngs-inequality.html#defyoung">Young's Inequality</a> strictly monotonically increasing and unlimited with $f(0)=0$. The counterpart of $x^{p-1}$ is $x=y^{\frac{1}{p-1}}$ displayed on the right, which can be used to calculate the area above the curve of $f(x)$.</p>
 <img width="360px" src="../../../../image/xpfunktionsschar.jpg" />
 <img width="360px" src="../../../../image/ypfunktionsschar.jpg" />
 <p>So let's just take the general function $x^{p-1}$ and look at it in terms of our equation. Here we used $p=4$ so the resulting function is $x^3$, which doesn't matter really. Now we can choose randomly an $a$ and $b$. And you can draw $ab$ ,$\frac{a^p}{p}$ and $\frac{b^q}{q}$ directly into our graph. </p>
@@ -50,7 +50,7 @@ ab \leq \frac{a^{p}}{p} + \frac{b^{q}}{q}.
 \begin{eqnarray}
 ab = 1*8 = 8 \leq \frac{a^p}{p} + \frac{b^q}{q} = \frac{1^4}{4} + \frac{8^{\frac{4}{3}}}{\frac{4}{3}}=12.25,
 \end{eqnarray}
-which holds true. As we learned in <a href="../05/depicking-youngs-inequality.html">previous chapter</a> the boundary case comes up when $f(a)=b$. So if we choose $f(a)=f(1)=1=b$. We get the equality:
+which holds true. As we learned in <a href="../05/desecting-youngs-inequality.html">previous chapter</a> the boundary case comes up when $f(a)=b$. So if we choose $f(a)=f(1)=1=b$. We get the equality:
 \begin{eqnarray}
 ab = 1 =  \frac{a^p}{p} + \frac{b^q}{q} = \frac{1^4}{4} + \frac{1^{\frac{4}{3}}}{\frac{4}{3}}=1.
 \end{eqnarray}
